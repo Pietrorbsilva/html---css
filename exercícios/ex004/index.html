@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            background-color: #2E2728; /* Cor de fundo marrom */
+            color: #FFFFFF; /* Cor do texto branca */
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #3E3638; /* Cor de fundo do formulário marrom mais escuro */
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; /* Cor verde para o botão de envio */
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2b8830; /* Efeito hover mais escuro */
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="salario">Salário:</label>
+        <input type="text" id="salario" name="salario" required>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
