@@ -6,6 +6,32 @@
     <title>Formulário</title>
 </head>
 <body>
-    
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="sxmax" checked>
+            <label for="sxmax">Masculino</label><br>
+           
+            <input type="radio" name="sexo" id="sxfem">
+            <label for="sxfem">Feminino</label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Esporte Favorito</legend>
+            <input type="checkbox" name="exfut" id="iexfut" checked>
+            <label for="iexfut">Futebol</label><br>
+
+            
+            <input type="checkbox" name="exbas" id="iexbas">
+            <label for="iexbas">Basquete</label><br>
+            
+            <input type="checkbox" name="exvol" id="iexvol">
+            <label for="iexvol">Vôlei</label><br>
+            
+            <input type="checkbox" name="extes" id="iextes">
+            <label for="iextes">Tênis</label>
+        </fieldset>
+    </form>
 </body>
 </html>
