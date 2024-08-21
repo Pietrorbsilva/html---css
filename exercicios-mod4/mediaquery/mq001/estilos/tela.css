@@ -12,3 +12,32 @@ html{
     padding: 10px;
     margin: 10px;
 }
+header {
+    background-color:
+    
+    rgb(158, 158, 158);
+}
+    
+header > h1 {
+    text-align: center;
+}
+    
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+}
+    
+   
+    
+menu li {
+    background-color: rgba(0, 0, 0, 0.137)
+    ;
+    display: inline-block;
+    padding: 10px;
+}
+    
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}    
