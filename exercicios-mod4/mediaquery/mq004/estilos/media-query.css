@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Diferentes versões com Media Query */
+
+@media print{ /* Impressoras */
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) { /* Tablets */
+    body{
+        background: url(../imagens/back-tablet.jpg);
+        img#pc{display: none;}
+        img#tel{display: block;}
+        img#tablet{display: none;}
+        img#printer{display: none;}
+        img#tv{display: none;}
+    }
+}
+
+@media only screen and (min-width: 992px) { /* laptops/desktops */
+    body{
+        background: url(../imagens/back-pc.jpg);
+    }
+}
+
+@media only screen and (min-width: 1200px) { /* Tv */
+    body{
+        background: url(../imagens/back-tv.jpg);
+    }
+}
